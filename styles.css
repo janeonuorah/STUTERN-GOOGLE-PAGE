@@ -1,0 +1,835 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #BDC1C6;
+    line-height: 20px;
+}
+
+.material-symbols-rounded {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+body {
+    background-color: #202124;
+    color: white;
+}
+
+section#nav {
+    border-bottom: 0.5px solid grey;
+    padding: 30px 30px 0px 30px;
+}
+
+#header {
+    display: flex;
+}
+
+#google_logo {
+    width: 90px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+input {
+    background-color: #2b2c2f;
+    width: 650px;
+    height: 44px;
+    border: none;
+    border-radius: 30px;
+    padding: 7px;
+    font-size: 14px;
+    border-color: #202124;
+    margin: 0px 0px 0px 25px;
+}
+
+::placeholder {
+    opacity: 1;
+    color: white;
+}
+
+#close {
+    position: absolute;
+    text-decoration: none;
+    color: grey;
+    margin: 10px 0px 0px 600px;
+    border-right: 1px solid grey;
+    padding-right: 7px;
+    font-weight: bold;
+}
+
+#icons {
+    position: absolute;
+    margin: 10px 0px 0px 650px;
+}
+
+#googlenav {
+    margin: 10px 0px 0px 500px;
+    display: inline-flex;
+}
+
+img#account {
+    margin-left: 20px;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+
+hr {
+    border: 1px solid grey;
+}
+
+#belowheader {
+    display: flex;
+    padding: 20px 30px 15px 120px;
+}
+
+#belowheader>a {
+    text-decoration: none;
+    color: grey;
+}
+
+
+a#tools:hover {
+    border: 1px solid white;
+    padding: 5px;
+    opacity: 0.5;
+    color: white;
+}
+
+main {
+    padding: 0px 147px 0px 147px;
+}
+
+p#loadingtime {
+    color: grey;
+    margin: 10px 0px 30px 0px;
+}
+
+p#name {
+    font-size: 28px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(232, 231, 231);
+    margin-bottom: 10px;
+}
+
+div#description {
+    display: flex;
+}
+
+div#topbuttons>button {
+    background-color: #2A4165;
+    border: none;
+    padding: 15px 25px;
+    color: #E2EEFF;
+    border-radius: 50px;
+    cursor: pointer;
+    line-height: 16px;
+    margin-top: -50px;
+}
+
+section#images {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    background-image: linear-gradient(180deg, #202124, #3a4f73);
+}
+
+section#images>div {
+    padding: 20px 10px 10px 10px;
+}
+
+div#first-set-of-images {
+    padding: 20px 30px 0px 0px;
+    display: flex;
+    margin-right: 20px;
+}
+
+img#messi-gettyimages {
+    width: 290px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+div#grid-images {
+    display: grid;
+    padding-left: 5px;
+}
+
+div#grid-images>img {
+    border-radius: 20px;
+}
+
+img#messicelebrate {
+    width: 230px;
+    height: 150px;
+}
+
+img#messiconfused {
+    width: 230px;
+    height: 150px;
+    padding-top: 3px;
+}
+
+p#photographer {
+    position: absolute;
+    color: white;
+    padding-top: 290px;
+    padding-left: 20px;
+    left: 150px;
+    font-size: 12px;
+}
+
+div#youtubeESPN {
+    margin: 20px 30px 0px 0px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.388);
+}
+
+div#youtubeESPN a {
+    text-decoration: none;
+}
+
+img#jpeggoatdebate {
+    width: 236px;
+    height: 134px;
+    border-radius: 20px;
+}
+
+div#textbeneath {
+    padding: 14px 14px 0px 14px;
+}
+
+p>img#youtubeicon {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+p#is-it-time {
+    padding: 8px 0px 0px 0px;
+    color: #E8EAED;
+    line-height: 20px;
+}
+
+div#height-age-news {
+    margin-top: 20px;
+    padding: 0 14px;
+}
+
+div#height-age {
+    display: flex;
+    margin-top: -20px;
+}
+
+div#height-age>div {
+    border-radius: 30px;
+    padding: 12px;
+    width: 125px;
+    height: 150px;
+    background-color: #2A4165;
+}
+
+div#height-age>div>p {
+    color: #E2EEFF;
+}
+
+div#height {
+    margin-right: 10px;
+}
+
+div#mirror-news {
+    display: flex;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.388);
+    border-radius: 20px;
+    margin-top: 12px;
+}
+
+div>img#mirrornewslogo {
+    width: 40px;
+    height: 30px;
+    border-radius: 100px;
+    margin-right: 100px;
+}
+
+div>img#mirrornews-image {
+    width: 100px;
+    height: 130px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+section#topstories,
+section#about {
+    padding: 10px 0px;
+    padding-right: 30px;
+    margin: 30px 0px 0px 0px;
+}
+
+h3#top-stories {
+    font-size: 22px;
+    font-weight: normal;
+    color: #EAE8ED;
+}
+
+div.headers {
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid grey;
+    margin-top: 20px;
+}
+
+div#newsaboutPSG {
+    display: flex;
+}
+
+div.logos-in-top-stories {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+div.logos-in-top-stories>img {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+
+div.logos-in-top-stories>p {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+div#sportbible {
+    border-right: 0.5px solid grey;
+    padding-right: 15px;
+    margin-top: 20px;
+    flex-basis: 330px;
+}
+
+img#sportbibleimage {
+    border-radius: 10px;
+}
+
+div#sportbibleheader {
+    display: flex;
+    margin: 10px 0px;
+}
+
+div.PSGanddailypost {
+    padding-left: 15px;
+    margin-top: 20px;
+    flex-basis: 330px;
+}
+
+div.sections-in-top-stories {
+    display: flex;
+}
+
+a.links-in-top-stories {
+    font-size: 16px;
+    color: #8AB4F8;
+    text-decoration: none;
+}
+
+a.links-in-top-stories:hover {
+    text-decoration: underline;
+}
+
+p.time-published {
+    margin-top: 10px;
+}
+
+div#PSGtalk-section {
+    border-bottom: 0.5px solid grey;
+    padding-bottom: 10px;
+}
+
+img.images-in-top-stories {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+div.news {
+    margin-top: 10px;
+}
+
+div.news1and2 {
+    display: flex;
+}
+
+div.news-left-side {
+    border-right: 0.5px solid grey;
+    padding-right: 10px;
+    margin-top: 10px;
+    flex-basis: 350px;
+}
+
+div.left-side {
+    border: none;
+    flex-basis: 350px;
+}
+
+a#more-news {
+    position: absolute;
+    top: 1420px;
+    left: 340px;
+}
+
+div.main-body-stories-and-links {
+    margin: 20px 130px 20px 0px;
+}
+
+span.info-path,
+span.time-updated {
+    color: #969BA1;
+}
+
+a.links-in-main-body {
+    font-size: 20px;
+    color: #8AB4F8;
+    text-decoration: none;
+    margin: 7px 0px;
+    display: block;
+}
+
+a.links-in-main-body:hover,
+a.embedded-info-links:hover {
+    text-decoration: underline;
+}
+
+a.embedded-info-links {
+    display: block;
+    margin-top: 3px;
+    text-decoration: none;
+    color: #8AB4F8;
+}
+
+h2.suggestion {
+    font-size: 22px;
+    color: #E8EAED;
+    font-weight: normal;
+    border-bottom: 0.5px solid grey;
+    padding-bottom: 13px;
+}
+
+div.suggestions-container,
+div#video-suggestions-container {
+    padding-right: 30px;
+}
+
+p.suggestions {
+    padding: 10px 0px;
+    border-bottom: 0.5px solid grey;
+    font-size: medium;
+    cursor: pointer;
+}
+
+span.dropdown-arrow,
+span.dropdown-arrow1,
+span.dropdown-arrow2,
+span.dropdown-arrow3,
+span.dropdown-arrow4,
+span.dropdown-arrow5 {
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+span.dropdown-arrow {
+    margin-left: 440px;
+}
+
+span.dropdown-arrow1 {
+    margin-left: 380px;
+}
+
+span.dropdown-arrow2 {
+    margin-left: 349px;
+}
+
+img#messi-forbes {
+    width: 92px;
+    height: 92px;
+    margin-top: 60px;
+    margin-right: 30px;
+}
+
+span#rightarrow {
+    font-weight: bold;
+    color: #969BA1;
+}
+
+div.video-suggestions {
+    padding: 10px 0px;
+    border-top: 0.5px solid grey;
+}
+
+a.video-links {
+    display: flex;
+    text-decoration: none;
+}
+
+a.video-links:hover {
+    text-decoration: underline;
+}
+
+a.video-links>img {
+    border: 0.5px solid white;
+    border-radius: 5px;
+    width: 124px;
+    height: 75px;
+}
+
+a.video-links>p {
+    color: #8AB4F8;
+    margin-left: 12px;
+    margin-top: 3px;
+    font-size: 16px;
+}
+
+div.channel-container {
+    margin-left: 137px;
+    margin-top: -39px;
+}
+
+span.channel,
+p.video-publish-time {
+    color: #9AA0A6;
+}
+
+a#view-all {
+    position: absolute;
+    top: 2425px;
+    left: 340px;
+}
+
+div#ESPN-video-suggestion {
+    border-bottom: 0.5px solid grey;
+    padding-bottom: 20px;
+}
+
+img#messi-officialbarcelona {
+    margin-right: 30px;
+}
+
+span.dropdown-arrow3 {
+    margin-left: 390px;
+}
+
+span.dropdown-arrow4 {
+    margin-left: 320px;
+}
+
+div.suggestion-with-images {
+    display: flex;
+    padding: 6px 0px;
+    border-bottom: 0.5px solid grey;
+}
+
+div.suggestion-with-images>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+p.suggestions-in-related-searches {
+    padding: 10px 0px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+span.dropdown-arrow5 {
+    margin-left: 400px;
+}
+
+div#footer-search {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+button.button-styles {
+    display: flex;
+    width: 318px;
+    height: 48px;
+    background-color: #303134;
+    padding: 15px 10px 15px 20px;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+
+a.links-in-footer-search {
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+a.links-in-footer-search:hover {
+    text-decoration: underline;
+}
+
+a.links-in-footer-search>p {
+    font-size: 16px;
+}
+
+span.right-word {
+    font-weight: bold;
+}
+
+div#other-pages {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+div#other-pages>a {
+    margin-right: 10px;
+    color: #8AB4F8;
+    text-decoration: none;
+}
+
+div#other-pages>a:hover {
+    text-decoration: underline;
+}
+
+section#second-half {
+    flex-basis: 750px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+section#about {
+    border-bottom: 0.5px solid grey;
+}
+
+h3#about,
+h3#stats,
+h3#profiles,
+h3#people-also-search-for {
+    font-size: 18px;
+    font-weight: normal;
+    color: #EAE8ED;
+    margin-bottom: 20px;
+}
+
+a.links-in-about {
+    color: #8AB4F8;
+    text-decoration: none;
+}
+
+a.links-in-about:hover {
+    text-decoration: underline;
+}
+
+p.paragraphs-in-about {
+    margin-bottom: 15px;
+}
+
+button#claim {
+    background-color: #202124;
+    border: 0.5px solid grey;
+    padding: 4px 16px 4px 16px;
+    line-height: 16px;
+    color: #BDC1C6;
+    display: inline-block;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+div#about-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+p#feedback {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+section#stats {
+    padding: 20px 0px;
+}
+
+div#stats-header {
+    display: flex;
+    cursor: pointer;
+}
+
+div#stats-header>h3:hover {
+    text-decoration: underline;
+}
+
+div#stats-header>button:hover {
+    cursor: pointer;
+    background-color: rgb(115, 112, 112);
+}
+
+div#stats-header>button {
+    background-color: #202124;
+    border: 0.5px solid grey;
+    margin-left: 250px;
+    padding: 0px 15px;
+    border-radius: 50px;
+}
+
+div#table-header {
+    display: flex;
+    border-bottom: 0.5px solid grey;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    padding-right: 100px;
+}
+
+div#table-header>div {
+    font-size: 12px;
+}
+
+div.table-data {
+    display: flex;
+    border-bottom: 0.5px solid grey;
+}
+
+div.leagues {
+    margin: 20px 0;
+    flex-basis: 100px;
+}
+
+div.leagues>h3 {
+    font-weight: normal;
+}
+
+div.leagues>p {
+    font-size: 12px;
+}
+
+table.stat-table-format {
+    border-collapse: collapse;
+    margin-top: -20px;
+}
+
+section#profiles {
+    border-bottom: 0.5px solid grey;
+    padding-bottom: 20px;
+}
+
+a#profiles-link {
+    text-decoration: none;
+    display: flex;
+}
+
+a#profiles-link:hover {
+    text-decoration: underline;
+}
+
+a#profiles-link>div>img,
+a#profiles-link>div>p {
+    margin-right: 40px;
+}
+
+a#profiles-link>div>img#instagram,
+a#profiles-link>div>img#youtube,
+a#profiles-link>div>img#facebook {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+section#people-also-search-for {
+    padding: 20px 0px;
+}
+
+a#other-players {
+    text-decoration: none;
+    flex-basis: 50px;
+}
+
+a#other-players:hover {
+    text-decoration: underline;
+}
+
+a#other-players>img {
+    width: 78px;
+    height: 78px;
+    border-radius: 10px;
+}
+
+a.neymarandtwoothers {
+    margin-left: 15px;
+
+}
+
+a#other-players>p {
+    margin-left: 10px;
+}
+
+a#see-more {
+    margin: 0px 30px;
+}
+
+a.more>button {
+    background-color: #303134;
+    width: 336px;
+    height: 36px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #171717;
+    margin-top: 50px;
+}
+
+div#top-footer,
+div#bottom-footer {
+    display: flex;
+    padding: 10px 0px 10px 130px;
+}
+
+div#footer-Nigeria {
+    padding-right: 10px;
+}
+
+div#footer-location {
+    padding-left: 10px;
+}
+
+div#footer-location>a {
+    text-decoration: none;
+}
+
+div#footer-location>a>span {
+    color: #8AB4F8;
+}
+
+div#bottom-footer>a {
+    text-decoration: none;
+}
+
+div#bottom-footer>a:hover {
+    color: #E2EEFF
+}
+
+a.links-in-bottom-footer {
+    margin-right: 20px;
+}
